@@ -32,7 +32,7 @@ let menu = {
     this.refSpan.className = 'nav__span';
 
     //On ajoute les attributs d'accessibilité
-    // this.refNav.setAttribute("aria-label=","Menu principal")
+
     this.refButton.setAttribute("aria-expanded", "false");
     this.refButton.setAttribute("aria-haspopup", "menu");
     this.refButton.setAttribute("aria-controls", "navList");
